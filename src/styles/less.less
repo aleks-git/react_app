@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+.innerWrap{
+  height: 100%;
+}
+
+.appHeader {
+  background-color: #222;
+  height: 130px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.appTitle {
+  font-size: 1.5em;
+}
+
+.content {
+  text-align: center;
+  font-size: large;
+  padding: 40px 0px 110px 0px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+ul.menuBlock {
+  list-style: none;
+  margin: 0 auto;
+  padding-top: 72px;
+  font-size: 19px;
+}
+
+.menuBlock li{
+  display: inline;
+}
+
+.menuBlock li a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  transition: .5s linear;
+  padding: 1em;
+  background: #ECDAD6;
+  border-right: 1px solid #b19891;
+  color: #695753;
+}
+
+.menuBlock li a.actives {
+  background: #b19891;
+}
+
+.menuBlock li a:hover {
+  background: #b19891;
+}
+
+.authForm {
+  padding: 10px 10px 5px;
+  background: #eaf0f2;
+  border-top: 2px solid #ff8000;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 500;
+  color: #2f383d;
+  margin: 0 auto;
+  width:370px;
+}
+
+.authForm .fieldBlock{
+  margin: 0 25px 15px;
+}
+
+.authForm .fieldBlock div {
+  margin: 5px 0 8px;
+}
+
+.authForm input {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  width: 80%;
+  height: 27px;
+  padding: 8px 28px;
+  background: #fff;
+  border: 1px solid #d7dee3;
+  font-family: 'Ubuntu', Tahoma, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.authForm input:focus {
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.authForm button{
+  overflow: visible;
+  padding: 8px 22px;
+  margin-bottom: 10px;
+  border: 1px solid #ff8000;
+  outline: none;
+  background: #ff8000;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.authForm button:hover {
+  background: #fff;
+  border-color: #ff8000;
+  color: #ff8000;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+.errorMessage:empty {
+  display: none;
+}
+
+.googleMapBlock {
+  width: 1200px;
+  height: 500px;
+  position: relative;
+}
+
+.customMapButton{
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.3);
+  cursor: pointer;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+.customMapButton:hover {
+  background-color: gainsboro;
+  border: 2px solid gainsboro;
+}
+
+.customMapButtonText{
+  color: rgb(25,25,25);
+  font-family: Roboto,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.appFooter {
+  background-color: #222;
+  height: 40px;
+  padding: 20px 0px;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
